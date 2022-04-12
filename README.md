@@ -1,4 +1,4 @@
-# React Native Expo - Typescript Template
+# Expo - Typescript Template
 
 ## Packages
 * Prettier
