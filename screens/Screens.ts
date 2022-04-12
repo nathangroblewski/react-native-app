@@ -1,11 +1,10 @@
 export enum Screens {
-    Root = "Root",
-    NotFound = "NotFound",
-    Modal = "Modal"
+  Root = 'Root',
+  NotFound = 'NotFound',
+  Modal = 'Modal'
 }
 
-
 export enum TabScreens {
-    TabOne = "TabOne",
-    TabTwo= "TabTwo",
+  TabOne = 'TabOne',
+  TabTwo = 'TabTwo'
 }
