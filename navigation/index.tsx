@@ -56,6 +56,7 @@ function RootNavigator() {
     <Stack.Navigator>
       <Stack.Screen
         name={Screens.Root}
+        // eslint-disable-next-line @typescript-eslint/no-use-before-define
         component={BottomTabNavigator}
         options={{ headerShown: false }}
       />
