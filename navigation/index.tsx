@@ -13,7 +13,7 @@ import {
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { ColorSchemeName, Pressable } from 'react-native';
-import { Screens, TabScreens } from '../screens';
+import { Screens, TabScreens } from 'screens';
 
 import Colors from '../constants/Colors';
 import { useColorScheme } from '../hooks';
@@ -22,7 +22,7 @@ import {
   NotFoundScreen,
   TabOneScreen,
   TabTwoScreen
-} from '../screens';
+} from 'screens';
 import {
   RootStackParamList,
   RootTabParamList,
