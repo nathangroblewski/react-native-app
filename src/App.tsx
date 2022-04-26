@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { registerRootComponent } from 'expo';
 
 import { useColorScheme, useCachedResources } from 'hooks';
-import Navigation from './src/navigation';
+import Navigation from './navigation';
 
-export default function App() {
+const App = () => {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
 
@@ -18,4 +19,6 @@ export default function App() {
       </SafeAreaProvider>
     );
   }
-}
+};
+
+export default registerRootComponent(App);
