@@ -2,9 +2,9 @@ import { FontAwesome } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import { Pressable } from 'react-native';
-import { Screens, TabOneScreen, TabScreens, TabTwoScreen } from 'screens';
+import { Screens, TabOneScreen, TabScreens, TabTwoScreen } from '@screens';
 import Colors from '../constants/Colors';
-import { useColorScheme } from 'hooks';
+import { useColorScheme } from '@hooks';
 import { RootTabParamList, RootTabScreenProps } from '../types';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();

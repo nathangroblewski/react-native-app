@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { Text, View, EditScreenInfo } from 'components';
+import { Text, View, EditScreenInfo } from '@components';
 
 export const TabTwoScreen = () => {
   return (

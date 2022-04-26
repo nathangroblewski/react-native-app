@@ -1,8 +1,7 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { ModalScreen, NotFoundScreen } from 'screens';
+import { Screens, ModalScreen, NotFoundScreen } from '@screens';
 
 import { RootStackParamList } from '../types';
-import { Screens } from 'screens';
 import { TabNavigator } from './TabNavigator';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
