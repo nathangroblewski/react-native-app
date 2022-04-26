@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { Text, View, EditScreenInfo } from 'components';
 
-import { RootTabScreenProps } from '../../types';
+import { RootTabScreenProps } from '../types';
 
 export const TabOneScreen = ({ navigation }: RootTabScreenProps<'TabOne'>) => {
   return (
